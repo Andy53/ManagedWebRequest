@@ -440,10 +440,6 @@ namespace ManagedWebRequest
                 dataStream.Write(byteArray, 0, byteArray.Length);
                 dataStream.Close();
             }
-
-            //Need to add code to set client cert.
-            //Need to add code to set cookies.
-            //Need to add code to output response to file.
         }
     }
 }
